@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>User Stories</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">User Stories</h1>
+    <p id="description">Thank you for taking the time to enrich our community</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="Enter your name" required /></label>
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required /></label>
+        <label id="number-label" for="number">Age (optional): <input id="number" name="number" type="number" min="13" max="120" placeholder="Enter your age" /></label>
+        <label for="dropdown">Who do you ask for help debugging?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">A trusted colleague</option>
+            <option value="2">Chat GPT</option>
+            <option value="3">A duck</option>
+            <option value="4">Other</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <label>What best describes you?</label>
+        <label for="student"><input id="student" type="radio" name="personal-description" value="student" class="inline" checked /> Student</label>
+        <label for="professional"><input id="professional" type="radio" name="personal-description" value="professional" class="inline" /> Professional</label>
+        <label for="teacher"><input id="teacher" type="radio" name="personal-description" value="teacher" class="inline" /> Teacher</label>
+      </fieldset>
+      <fieldset>
+        <label>Which courses are you eager to try? (check all that apply)</label>
+        <label for="responsive-web-design"><input   class="inline" id="responsive-web-design" type="checkbox" name="courses" value="responsive-web-design" checked>Responsive Web Design</label>
+        <label for="javascript-algorithms-and-data-structures"><input class="inline" id="javascript-algorithms-and-data-structures" type="checkbox" name="courses" value="javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</label>
+        <label for="front-end-development-libraries"><input class="inline" id="front-end-development-libraries" type="checkbox" name="courses" value="front-end-development-libraries">Front End Development Libraries</label>
+        <label for="data-visualization"><input class="inline" id="data-visualization" type="checkbox" name="courses" value="data-visualization">Data Visualization</label>
+        <label for="relational-database"><input class="inline" id="relational-database" type="checkbox" name="courses" value="relational-database">Relational Database</label>
+        <label for="back-end-development-and-apis"><input class="inline" id="back-end-development-and-apis" type="checkbox" name="courses" value="back-end-development-and-apis">Back End Development and APIs</label>
+        <label for="quality-assurance"><input class="inline" id="quality-assurance" type="checkbox" name="courses" value="quality-assurance">Quality Assurance</label>
+        <label for="scientific-computing-with-python"><input class="inline" id="scientific-computing-with-python" type="checkbox" name="courses" value="scientific-computing-with-python">Scientific Computing with Python</label>
+        <label for="data-analysis-with-python"><input class="inline" id="data-analysis-with-python" type="checkbox" name="courses" value="data-analysis-with-python">Data Analysis with Python</label>
+        <label for="information-security"><input class="inline" id="information-security" type="checkbox" name="courses" value="information-security">Information Security</label>
+        <label for="machine-learning-with-python"><input class="inline" id="machine-learning-with-python" type="checkbox" name="courses" value="machine-learning-with-python">Machine Learning with Python</label>
+        <label for="college-algebra-with-python"><input class="inline" id="college-algebra-with-python" type="checkbox" name="courses" value="college-algebra-with-python">College Algebra with Python</label>
+      </fieldset> 
+      <fieldset>
+        <label for="comments">Tell your story with additional comments:
+          <textarea id="comments" name="bio" rows="4" cols="40" placeholder="I never leave home without a towel..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
