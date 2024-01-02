@@ -1,0 +1,56 @@
+html {
+  font-size: 11px;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #eeeeee;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+#title-div {
+  background: #2f4f4f;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+  color: white;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+}
+
+#img-div {
+  background: maroon;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+#main {
+  margin: 20px;
+  padding: 20px;
+  background: #121212;
+  border-radius: 15px;
+}
