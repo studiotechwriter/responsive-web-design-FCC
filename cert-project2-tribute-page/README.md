@@ -1,2 +1,2 @@
 # RWD-certProject2-tributePage
- Build a tribute page for a subject of your choosing, fictional or real.
+ 2nd Certification Project for Responsive Web Design Course freeCodeCamp.org
